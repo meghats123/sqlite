@@ -1,0 +1,58 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/mybackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:background="@drawable/gradientbackground"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mount Zion College "
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+       <EditText
+           android:drawablePadding="20dp"
+           android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+           android:layout_marginTop="80dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="ENTER YOUR E_MAIL ID"
+           android:id="@+id/email"
+           />
+        <EditText
+            android:drawablePadding="20dp"
+            android:drawableLeft="@drawable/ic_remove_red_eye_black_24dp"
+android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ENTER YOUR PASSWORD"
+            android:id="@+id/pass"
+            />
+        <Button
+            android:textColor="#c74488"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/loginbuttonstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:layout_gravity="center"
+            android:id="@+id/button1"/>
+    </LinearLayout>
+</LinearLayout>

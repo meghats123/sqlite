@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Movie App</string>
+    <string-array name="MlanguageList">
+        <item>Telugu</item>
+        <item>Malayalam</item>
+        <item>Tamil</item>
+        <item>Hindi</item>
+        <item>English</item>
+    </string-array>
+</resources>

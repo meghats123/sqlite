@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ProductApp</string>
+    <string-array name="brandList">
+        <item>Oppo</item>
+        <item>Lenova</item>
+        <item>Samsung</item>
+        <item>LG</item>
+        <item>MI</item>
+        <item>Apple</item>
+        <item>Vivo</item>
+    </string-array>
+    <string-array name="typeList">
+        <item>new</item>
+        <item>used</item>
+    </string-array>
+</resources>

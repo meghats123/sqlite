@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Student</string>
+
+    <string-array name="degreeList">
+        <item>BSC Computer Science</item>
+        <item>BCA Computer Science</item>
+        <item>MCA Computer Science</item>
+        <item>MSC Computer Science</item>
+    </string-array>
+</resources>

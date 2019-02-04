@@ -1,0 +1,43 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#d68fd2"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <Button
+        android:text="ADD"
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="SUB"
+        android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="MUL"
+        android:id="@+id/mul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="DIV"
+        android:id="@+id/div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="FINDLARGEST"
+        android:id="@+id/findlargest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="FINDSMALLEST"
+        android:id="@+id/findsmallest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
